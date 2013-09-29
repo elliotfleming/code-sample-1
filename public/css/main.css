@@ -1,0 +1,67 @@
+/* /css/main.css */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - BASE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+h1 {
+    margin: 0;
+    color: #4FB18F;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - LAYOUT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.container-main {
+    margin: 20px auto;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - HEADER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.navbar {
+    border-color: #A7DDD2;
+}
+
+.navbar-brand {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #80CEBB !important;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - CONTENT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.page-heading {
+    margin-bottom: 20px;
+}
+
+.panel-default {
+    border-color: #A7DDD2;
+}
+
+.panel-default > .panel-heading {
+    border-color: #A7DDD2;
+}
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #A7DDD2;
+}
+
+.panel-default > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #A7DDD2;
+}
