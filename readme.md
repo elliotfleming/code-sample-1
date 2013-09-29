@@ -15,6 +15,7 @@ also a few Ruby Gems included as well that I use for TDD.
 *   Create a virtual host named everyequity.local (if you want to trigger the local environement)
 *   $ composer install
 *   Modify app/config/database.php file with your database credentials
+*   Create a new database called *everyequity*
 *   $ php artisan migrate --seed
 
 ## Notable Paths
